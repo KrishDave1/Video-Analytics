@@ -1,3 +1,8 @@
 *.pyc
 samenv/
 IITR-dataset/
+# Large local data and env
+IITR-dataset/
+samenv/
+segment-anything-annotator/vit_b.pth
+segment-anything-annotator/demo.gif
