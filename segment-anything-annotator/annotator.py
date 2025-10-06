@@ -591,10 +591,10 @@ class MainWindow(QMainWindow):
             except:
                 pass
 
-            points = shape["points"]
-            shape_type = shape["shape_type"]
-            flags = shape["flags"]
-            group_id = shape["group_id"]
+            points = shape.get("points", [])
+            shape_type = shape.get("shape_type", "polygon")
+            flags = shape.get("flags", {})
+            group_id = shape.get("group_id", None)
             if not points:
                 # skip point-empty shape
                 continue
