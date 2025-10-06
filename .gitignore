@@ -1,6 +1,4 @@
 *.pyc
-samenv/
-IITR-dataset/
 # Large local data and env
 IITR-dataset/
 samenv/
